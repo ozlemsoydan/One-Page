@@ -30,7 +30,6 @@
     <!-- jquery  -->
     <!-- jquery UI -->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 
@@ -61,6 +60,54 @@
 </head>
 
 <body>
+    <!-- nav start  -->
+    <nav id="navbar_id" class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <div class="container-fluid" id="navbar_expend">
+            <a class="navbar-brand" href="index.html" id="logo_href">
+                <span>
+                    <img src="images/logo1.png" id="logo_id" alt="" loading="lazy" />ozlemsoydan.com</span>
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto ms-5 mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news-paper"><i class="fa-regular fa-newspaper"></i>Newspaper</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog"><i class="fa-solid fa-rss"></i>Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me"><i class="fa-regular fa-address-card"></i>About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><i class="fa-solid fa-mobile-retro"></i>contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav me-auto ms-5 mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <form class="d-flex  my-lg-0">
+                            <input class=" me-sm-2" type="search" placeholder="Search">
+                            <button class="btn my-2 my-sm-0" type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <!-- nav end -->
 
 </body>
 
