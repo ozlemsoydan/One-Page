@@ -1,4 +1,4 @@
-# One-Page
+# Website-Page
 
 <h1 align="center">Hi 👋, I'm Özlem</h1>
 <h3 align="left">Connect with me:</h3>
