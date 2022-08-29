@@ -208,3 +208,15 @@ h4 {
     box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
     transition: all 200ms ease-out;
 }
+
+/* FOOTER */
+footer {
+    min-height: 20rem;
+    width: 100%;
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+}
+
+#copy_right {
+    background-color: var(--copy-right-color);
+}
