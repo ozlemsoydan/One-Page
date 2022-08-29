@@ -7,7 +7,7 @@
 
     --max-width: 100% !important;
     --navbar-icon-color: #A0AB5C;
-    --navbar-background-color: #000000 !important;
+    --navbar-background-color: #00000097 !important;
     --background-color: #f8f9f9 !important;
 
     --main-color-odd: #f8f9f9;
@@ -89,15 +89,16 @@ p {
     opacity: .8;
     background-color: var(--navbar-background-color);
 }
-.nav-link{
+
+.nav-link {
     color: white !important;
     border-radius: 15px;
-   
+
 }
 
-.nav-link:hover{
-    color: wheat !important;
-    background-color: #d2d7d340;
+.nav-link:hover {
+    color: white !important;
+    background-color: #d3d3d329;
     border-radius: 15px;
 }
 
@@ -105,12 +106,13 @@ p {
     max-width: 4rem;
     padding-right: .5rem;
 
+
 }
 
 #logo_href {
-    color: #ffffff;
-    padding: .1rem 2rem;
 
+    padding: .1rem 2rem;
+    color: rgb(255, 255, 255);
 }
 
 /*search*/
@@ -129,20 +131,20 @@ p {
     outline: none;
     border-radius: 25px;
     transition: all .5s ease-in-out;
-    background-color: #A0AB5C;
+    background-color: #A29679;
     padding-right: 40px;
     color: #fff;
 }
 
-.search-box i{
+.search-box i {
     color: black !important;
-    
+
 }
 
 .input-search::placeholder {
-   
+
     color: black;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight: 100;
 }
 
@@ -175,4 +177,34 @@ p {
     /*background-color: transparent;*/
     border-bottom: 1px solid rgba(255, 255, 255, .5);
     transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+/* HEADER */
+header {
+    background-image: url('images/design-space-paper-textured-background.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+    height: 100vh;
+    padding-top: 15rem;
+}
+
+header h1,
+h4 {
+    margin-bottom: 2rem;
+}
+
+#header_id a {
+    border-radius: 8px;
+    color: black;
+    background-color: #ff7f5078;
+
+}
+
+#header_id a:hover {
+    color: white;
+    background-color: #AA0000;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
+    transition: all 200ms ease-out;
 }
