@@ -13,7 +13,7 @@
     --main-color-odd: #f8f9f9;
     --main-color-even: #292b2f;
 
-    --footer-bg-color: #3d3d3d !important;
+    --footer-bg-color: #3d3d3dc3 !important;
     --footer-text-color: #ffffff !important;
 
     --copy-right-color: #1a1919;
@@ -219,4 +219,26 @@ footer {
 
 #copy_right {
     background-color: var(--copy-right-color);
+}
+
+#social_id{
+    position: absolute;
+    right: 35px;
+    border-radius: 5px;
+}
+.linkedin:hover{
+    border-radius: 5px;
+    background-color: #3258e1;
+}
+.facebook:hover{
+    border-radius: 5px;
+    background-color: #0025aa;
+}
+.telegram:hover{
+    border-radius: 5px;
+    background-color: #237de4;
+}
+.whatsapp:hover{
+    border-radius: 5px;
+    background-color: #089138;
 }
