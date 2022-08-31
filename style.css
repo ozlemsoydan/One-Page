@@ -74,13 +74,8 @@ p {
 }
 
 .head_tag {
-    text-align: center;
-    background-color: #9c01fc;
-    color: white;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
-    border-radius: 4%;
+
+    padding-top: 3rem;
     width: 100%;
 }
 
@@ -194,6 +189,7 @@ h4 {
     margin-bottom: 2rem;
 }
 
+
 #header_id a {
     border-radius: 8px;
     color: black;
@@ -209,6 +205,113 @@ h4 {
     transition: all 200ms ease-out;
 }
 
+/**************************************/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #D8D8D8;
+}
+
+/* title styles */
+.head_tag h2 {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    line-height: 1.2;
+}
+
+.head_tag h2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation: a-ltr-after 2s cubic-bezier(.77, 0, .18, 1) forwards;
+    transform: translateX(-101%);
+}
+
+.head_tag h2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: a-ltr-before 2s cubic-bezier(.77, 0, .18, 1) forwards;
+    transform: translateX(0);
+}
+
+.head_tag h2:nth-of-type(1)::before,
+.head_tag h2:nth-of-type(1)::after {
+    animation-delay: 1s;
+}
+
+.head_tag h2:nth-of-type(2)::before,
+.head_tag h2:nth-of-type(2)::after {
+    animation-delay: 1.5s;
+}
+
+@keyframes a-ltr-after {
+    0% {
+        transform: translateX(-100%)
+    }
+
+    100% {
+        transform: translateX(101%)
+    }
+}
+
+@keyframes a-ltr-before {
+    0% {
+        transform: translateX(0)
+    }
+
+    100% {
+        transform: translateX(200%)
+    }
+}
+
+
+/* MAIN */
+
+/* counter */
+#counterId {
+    background-color: #feeee385;
+
+}
+
+.counters div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;    
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    border-radius: 50%;
+    box-shadow: inset 0em -0.4em 0.4em 0.2em rgba(15, 28, 63, 0.125);
+    height: 15em;
+    width: 15em;
+
+
+}
+
+#counterId .counter-header,
+.counters p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#counterId .row span {
+    font-size: 3.5rem;
+}
 
 /* FOOTER */
 footer {
@@ -218,40 +321,83 @@ footer {
     color: var(--footer-text-color);
 }
 
-#section-footer{
-    margin: 20px 0px 0px 0px;
+#section-footer {
+
+    margin: 20px 25px 0px 0px;
     box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(51, 150, 255, 0.505);
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(53, 53, 53, 0.505);
 }
 
-#googlemapId{
+#googlemapId {
     width: 100%;
-    height:13rem;
-    padding:5rem;
+    height: 13rem;
+    padding: 5rem;
 }
 
 #copy_right {
     background-color: var(--copy-right-color);
 }
 
-#social_id{
+#social_id {
     position: absolute;
     right: 35px;
     border-radius: 5px;
 }
-.linkedin:hover{
+
+#social_id a {
+    border: none;
     border-radius: 5px;
-    background-color: #3258e1;
 }
-.facebook:hover{
-    border-radius: 5px;
-    background-color: #0025aa;
+
+.linkedin {
+    background: #56CCF2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
-.telegram:hover{
-    border-radius: 5px;
-    background-color: #237de4;
+
+.facebook {
+    background: #00c6ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
-.whatsapp:hover{
-    border-radius: 5px;
-    background-color: #089138;
+
+.instagram {
+    background: #8A2387;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.telegram {
+
+    background: #1c92d2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.whatsapp {
+
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
