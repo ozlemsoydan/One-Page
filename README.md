@@ -1,6 +1,11 @@
 # Website-Page
 
 <h1 align="center">Hi 👋, I'm Özlem</h1>
+![Screenshot1](https://github.com/ozlemsoydan/Website-Page/blob/main/screenshots/website1.png)
+![Screenshot2](https://github.com/ozlemsoydan/Website-Page/blob/main/screenshots/website2.png)
+![Screenshot3](https://github.com/ozlemsoydan/Website-Page/blob/main/screenshots/website3.png)
+![Screenshot4](https://github.com/ozlemsoydan/Website-Page/blob/main/screenshots/website4.png)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/ozlemsoydan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="ozlemsoydan" height="30" width="40" /></a>
