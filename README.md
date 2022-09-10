@@ -2,8 +2,11 @@
 
 <h1 align="center">Hi 👋, I'm Özlem</h1>
 ![Screenshot1](https://github.com/ozlemsoydan/Website-Page/blob/main/screenshots/website1.png)
+
 ![Screenshot2](https://github.com/ozlemsoydan/Website-Page/blob/main/screenshots/website2.png)
+
 ![Screenshot3](https://github.com/ozlemsoydan/Website-Page/blob/main/screenshots/website3.png)
+
 ![Screenshot4](https://github.com/ozlemsoydan/Website-Page/blob/main/screenshots/website4.png)
 
 <h3 align="left">Connect with me:</h3>
