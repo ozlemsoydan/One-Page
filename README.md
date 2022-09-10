@@ -1,6 +1,7 @@
 # Website-Page
 
 <h1 align="center">Hi 👋, I'm Özlem</h1>
+
 ![Screenshot1](https://github.com/ozlemsoydan/Website-Page/blob/main/screenshots/website1.png)
 
 ![Screenshot2](https://github.com/ozlemsoydan/Website-Page/blob/main/screenshots/website2.png)
